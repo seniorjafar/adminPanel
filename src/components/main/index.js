@@ -33,7 +33,7 @@ const Main = () => {
   useEffect(() => {
     const fetchData = async () => {
       await axios
-        .get("https://crud-product-sla6.onrender.com/products")
+        .get("https://66361b42415f4e1a5e2648bb.mockapi.io/api/products")
         .then((res) => {
           setData(res?.data);
           setorginalData(res?.data);

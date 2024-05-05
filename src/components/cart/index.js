@@ -18,7 +18,7 @@ const Cart = ({
   const navegation = useNavigate();
   const deleteProduct = (id) => {
     if (window.confirm("Вы действительно хотите удалить товар")) {
-      axios.delete(`https://crud-product-sla6.onrender.com/products/${id}`);
+      axios.delete(`https://66361b42415f4e1a5e2648bb.mockapi.io/api/products/${id}`);
       toast.success("Товар удален");
       data(true);
     }
